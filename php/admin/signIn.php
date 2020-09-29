@@ -23,7 +23,7 @@ $db = new Database();
  if($user1['admin_email'] != 'Guest') {
 ob_start();
 
-header("Refresh: 0; url=./general.php");
+header("Refresh: 0; url=./index.php");
 echo"<script type='text/javascript'>alert('You are already conected ..you will redirect automatic to index page');</script>"; 
 
 ob_end_flush();
