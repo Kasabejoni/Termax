@@ -28,7 +28,7 @@ CREATE TABLE users(
 name varchar(50) NOT NULL,
 password varchar(250) NOT NULL
 	);
-    
+    CREATE TABLE  `admin` ( `user` VARCHAR(50) NOT NULL , `password` INT NOT NULL ) ENGINE = InnoDB;
 DROP TABLE IF EXISTS orders;
 create table orders(
 	id int primary key AUTO_INCREMENT,
