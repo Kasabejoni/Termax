@@ -75,7 +75,7 @@ body {
 
 <div class="sidenav">
   <a href="#about">General</a>
-  <a href="#services">Shop</a>
+  <a href="./shop.php">Shop</a>
   <a href="#clients">users</a>
   
 </div>
